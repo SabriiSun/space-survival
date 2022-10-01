@@ -22,11 +22,13 @@ def draw_text(text, font, text_col, x, y):
 # name_image = pygame.image.load('images/namefile.type')
 bg_image = pygame.image.load('images/Space Background Cropped.png')
 title_image = pygame.transform.scale(pygame.image.load('images/title.png'), (625,60))
-
+base_image = pygame.transform.scale(pygame.image.load('images/base.png'), (1250,220))
+ground_image = pygame.image.load('images/ground.png')
 
 # game needs a loop to run in
 run = True
 title_screen = True
+instruction_screen = True
 while run:
     
     # constantly display images for visuals
@@ -34,8 +36,9 @@ while run:
     if title_screen:
         screen.blit(title_image, (310,250))
         draw_text("Press SPACE to start", font, TEXT_COL, 450, 350)
-    
-
+    if title_screen == False:
+        screen.blit(ground_image, (0, 600))
+        screen.blit(base_image, (0,395))
     for event in pygame.event.get():
         # first event is to close game for completenes
         if event.type == pygame.QUIT:
