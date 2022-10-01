@@ -40,3 +40,13 @@ https://opengameart.org/content/spacers
 used for background game visuals
 open source for creative use
 https://deep-fold.itch.io/space-background-generator
+
+"Pixel UI buttons" by TotusLotus
+used for buttons
+open source for creative use
+https://totuslotus.itch.io/pixel-ui-buttons
+
+"Space Mission Font" by Maknastudio
+used for title screen
+licensed as Freeware, Non-commercial
+https://www.fontspace.com/space-mission-font-f56190
