@@ -10,7 +10,7 @@ The git repository is licensed under The Unlicense and is dedicated to the publi
 Developpers:
 
 Sabrina Sousa 
-(SabriiSun on Github)
+(sousas8 on Github)
 Mechatronics Engineering Student
 
 
